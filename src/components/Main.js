@@ -11,7 +11,7 @@ export default function Main () {
             <div className="interests">
                 <p className="heading">Interests</p>
                 <p className="text">
-                Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+                Tech scholar. Reader. coder. Internet fanatic. Travel geek. Pop culture ninja. Coffee fanatic.
                 </p>
             </div>
         </div>

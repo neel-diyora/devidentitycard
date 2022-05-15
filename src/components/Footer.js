@@ -7,7 +7,7 @@ import LinkedinIcon from "../images/Linkedin Icon.png"
 export default function Footer () {
     return (
         <div className="footer">
-            <a href="https://twitter.com/home" target="_blank">
+            <a href="https://twitter.com/neel_diyora" target="_blank">
                 <img src={TwitterIcon}/>
             </a>
             <a href="https://www.instagram.com/_neel_diyora_/?hl=en" target="_blank">
@@ -16,7 +16,7 @@ export default function Footer () {
             <a href="https://github.com/neel-diyora" target="_blank">
                 <img src={GitHubIcon}/>
             </a>
-            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <a href="https://www.linkedin.com/in/neel-diyora/" target="_blank">
                 <img src={LinkedinIcon}/>
             </a>
         </div>
