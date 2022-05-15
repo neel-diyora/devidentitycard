@@ -1,13 +1,137 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container-frame {
+    border-width: 0;
+    border-style: solid;
+    border-color: none;
+    background: #23252C;
+    padding: 47px 116px;
+}
+
+.container {
+    background-color: #1A1B21;
+    width: 317px;
+    border: 2px solid none;
+    border-radius: 10px;
+}
+
+/* styling info section  */
+
+.name,.profetion,.website {
+    margin: 0;
+}
+
+.info {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 34px;
+}
+
+.profile-img {
+    margin-bottom: 21px;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-text {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.profetion {
+    font-size: 13px;
+    font-weight: 400;
+    color: #F3BF99;
+    margin-bottom: 10px;
+}
+
+.website {
+    font-size: 10px;
+    font-weight: 400;
+    color: #DCDCDC;
+}
+
+.button-section {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.mail-logo {
+    padding-right: 9px;
+    height: 18px;
+}
+
+/* styling main section  */
+
+.main {
+    margin-left: 32px;
+    margin-right: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.about {
+    padding-bottom: 23px;
+}
+
+.interests {
+    padding-bottom: 20px;
+}
+
+.heading {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.text {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 16px;
+    color: #DCDCDC;
+}
+
+/* styling in footer  */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 60px;
+    border-radius: 0 0 10px 10px;
+    background-color: #161619;
 }
