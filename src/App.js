@@ -8,7 +8,7 @@ export default function App () {
         <div className="container-frame">
             <div className="container">
                 <Info />
-                <Main />
+                <Main /> 
                 <Footer />
             </div>
         </div>
